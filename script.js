@@ -24,3 +24,5 @@ function previousImage() {
   }
   showImage();
 }
+
+setInterval(() => nextImage(), 5000);
