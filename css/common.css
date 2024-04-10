@@ -14,11 +14,22 @@ header {
 header a {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 #logo {
   display: flex;
   align-items: center;
+}
+
+#logo span {
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#logo img {
+  width: 50px;
+  border-radius: 50%;
 }
 
 .flex {

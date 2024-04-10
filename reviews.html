@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/reviews.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -17,15 +29,18 @@
     <header>
       <div class="flex justify-between width-80 margin-auto">
         <div id="logo">
-          <a href="index.html">Restaurant</a>
+          <a href="index.html" class="flex align-items-center"
+            ><img class="margin-r-16" src="./images/Logo.jpg" />
+            <span>Les Crêpes</span></a
+          >
         </div>
         <div class="flex justify-right padding-32">
-          <div class="margin-r-16"><a href="aboutus.html">About Us</a></div>
-          <div class="margin-r-16"><a href="reviews.html">Review</a></div>
           <div class="margin-r-16">
             <a href="reservation.html">Reservation</a>
           </div>
-          <div class="margin-r-64"><a href="menu.html">Menu</a></div>
+          <div class="margin-r-16"><a href="menu.html">Menu</a></div>
+          <div class="margin-r-16"><a href="reviews.html">Review</a></div>
+          <div class="margin-r-16"><a href="aboutus.html">About Us</a></div>
         </div>
       </div>
     </header>
@@ -167,7 +182,7 @@
       </section>
     </main>
     <footer class="margin-t-40">
-      <div class="flex width-80 margin-auto">
+      <div class="flex width-60 margin-auto">
         <div class="flex-1 margin-t-32 margin-b-32">
           <a href="index.html">Restaurant</a>
         </div>
@@ -183,15 +198,24 @@
         </div>
         <div class="flex">
           <div class="flex-1 margin-t-32 margin-b-32" id="left-border">
-            <div>mobile</div>
-            <div>message</div>
-            <div>location</div>
+            <div class="flex">
+              <span class="material-symbols-outlined"> call </span>
+              &nbsp;+12345678901
+            </div>
+            <div class="flex">
+              <span class="material-symbols-outlined"> mail </span>
+              &nbsp;lescrepes@gmail.com
+            </div>
+            <div class="flex">
+              <span class="material-symbols-outlined"> pin_drop </span>
+              &nbsp;121 Advert Road, Conestoga, ON.
+            </div>
           </div>
         </div>
       </div>
       <hr />
       <div class="flex copyright justify-center">
-        <div>&copy; 2024 , TravelWorld, Inc. All Rights Reserved</div>
+        <div>&copy; 2024 , Les Crêpes, Inc. All Rights Reserved</div>
       </div>
     </footer>
     <script src="js/reviews.js"></script>

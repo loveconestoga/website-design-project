@@ -1,9 +1,7 @@
 let images = [
-  "images/center_image1.jpg",
+  "images/1.jpg",
   "images/center_image2.jpg",
-  "images/center_image3.jpg",
   "images/center_image4.jpg",
-  "images/center_image5.jpg",
   "images/main_image.jpg",
 ];
 let currentImageIndex = 0;
